@@ -10,7 +10,16 @@ namespace DistinctList
     {
         static void Main(string[] args)
         {
-            List<int> numbers = Console.ReadLine();
+            List<int> numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+            List<int> result = new List<int>();
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                if(!result.Contains(numbers[i]))
+                {
+                    result.Add(numbers[i]);
+                }
+            }
+            Console.WriteLine(string.Join(" ", result));
         }
     }
 }

@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TearListInHalf", "TearListI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StuckZipper", "StuckZipper\StuckZipper.csproj", "{F528EF19-F3D1-4522-94A1-038F319B6D8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistinctList", "DistinctList\DistinctList.csproj", "{D9FCDB7E-31E4-4240-B45C-0D4499045A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerInsertion", "IntegerInsertion\IntegerInsertion.csproj", "{ACE7D351-1667-4275-9AFC-7FA3BB8E00C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{F528EF19-F3D1-4522-94A1-038F319B6D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F528EF19-F3D1-4522-94A1-038F319B6D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F528EF19-F3D1-4522-94A1-038F319B6D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9FCDB7E-31E4-4240-B45C-0D4499045A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9FCDB7E-31E4-4240-B45C-0D4499045A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9FCDB7E-31E4-4240-B45C-0D4499045A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9FCDB7E-31E4-4240-B45C-0D4499045A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE7D351-1667-4275-9AFC-7FA3BB8E00C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE7D351-1667-4275-9AFC-7FA3BB8E00C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE7D351-1667-4275-9AFC-7FA3BB8E00C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE7D351-1667-4275-9AFC-7FA3BB8E00C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
