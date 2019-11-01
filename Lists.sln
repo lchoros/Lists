@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistinctList", "DistinctLis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerInsertion", "IntegerInsertion\IntegerInsertion.csproj", "{ACE7D351-1667-4275-9AFC-7FA3BB8E00C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camel", "Camel\Camel.csproj", "{DA4195FC-C52E-4931-9300-73938382DBA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{ACE7D351-1667-4275-9AFC-7FA3BB8E00C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACE7D351-1667-4275-9AFC-7FA3BB8E00C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACE7D351-1667-4275-9AFC-7FA3BB8E00C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA4195FC-C52E-4931-9300-73938382DBA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4195FC-C52E-4931-9300-73938382DBA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4195FC-C52E-4931-9300-73938382DBA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4195FC-C52E-4931-9300-73938382DBA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
