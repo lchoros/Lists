@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BombNumbers", "BombNumbers\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveNegativesAndReverse", "RemoveNegativesAndReverse\RemoveNegativesAndReverse.csproj", "{AEB865CC-29C2-473D-9128-E2E9AA60453E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumAdjacentEqualNumbers", "SumAdjacentEqualNumbers\SumAdjacentEqualNumbers.csproj", "{9A94EFB9-86B9-4ADE-8602-E9792ABD46B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixOfLetters", "MatrixOfLetters\MatrixOfLetters.csproj", "{4FCA1269-8727-424A-A22F-5C7F071EE977}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{AEB865CC-29C2-473D-9128-E2E9AA60453E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEB865CC-29C2-473D-9128-E2E9AA60453E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEB865CC-29C2-473D-9128-E2E9AA60453E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A94EFB9-86B9-4ADE-8602-E9792ABD46B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A94EFB9-86B9-4ADE-8602-E9792ABD46B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A94EFB9-86B9-4ADE-8602-E9792ABD46B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A94EFB9-86B9-4ADE-8602-E9792ABD46B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FCA1269-8727-424A-A22F-5C7F071EE977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCA1269-8727-424A-A22F-5C7F071EE977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCA1269-8727-424A-A22F-5C7F071EE977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCA1269-8727-424A-A22F-5C7F071EE977}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

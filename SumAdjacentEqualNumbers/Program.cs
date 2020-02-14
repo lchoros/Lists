@@ -16,9 +16,11 @@ namespace SumAdjacentEqualNumbers
             {
                 if(numbers[i] == numbers[i+1])
                 {
-                    numbers[i] *= 2;
+                    numbers[i+1] *= 2;
                     numbers.RemoveAt(i);
+                    i = -1;
                 }
+
             }
             Console.WriteLine(string.Join(" ", numbers));
         }
