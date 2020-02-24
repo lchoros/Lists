@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Matrices
+namespace Matrixes2
 {
     class Program
     {
@@ -23,9 +23,9 @@ namespace Matrices
             switch (type)
             {
                 //case 'A': PrintA(matrix, rows, cols); break;
-                case 'B': PrintB(matrix, rows, cols); break;
-                //case 'C': PrintC(matrix, rows, cols); break;
-                //case 'D': PrintD(matrix, rows, cols); break;
+                //case 'B': PrintB(matrix, rows, cols); break;
+                case 'C': PrintC(matrix, rows, cols); break;
+                    //case 'D': PrintD(matrix, rows, cols); break;
             }
 
             for (int i = 0; i < rows; i++)
@@ -47,68 +47,45 @@ namespace Matrices
         }
 
 
-        static void PrintB(int[][] matrix, int rows, int cols)
-        {
-            int counter = 1;
-            for (int col = 0; col < cols; col++)
-            {
-                for (int row = 0; row < rows; row++)
-                {
-                    if(col % 2 == 0)
-                    {
-                        matrix[rows-row][col] = counter;
-                    }
-                    else
-                    {
-                        matrix[row][col] = counter;
-                    }
-                    counter++;
-                }
-            }
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         //static void PrintB(int[][] matrix, int rows, int cols)
         //{
         //    int counter = 1;
         //    for (int col = 0; col < cols; col++)
         //    {
-        //        int k = col % 2 == 0 ? 0 : matrix.Length - 1;
-        //        for (int row = k; row < rows && row >= 0; row = k == 0 ? row + 1 : row -1)
+        //        for (int row = 0; row < rows; row++)
         //        {
-        //                matrix[row][col] = counter++;
+        //            if (col % 2 != 0)
+        //            {
+        //                matrix[rows - row-1][col] = counter;
+        //            }
+        //            else
+        //            {
+        //                matrix[row][col] = counter;
+        //            }
+        //            counter++;
         //        }
         //    }
         //}
+
+        static void PrintB(int[][] matrix, int rows, int cols)
+        {
+            int counter = 1;
+            for (int col = 0; col < cols; col++)
+            {
+                int k = col % 2 == 0 ? 0 : matrix.Length - 1;
+                for (int row = k; row < rows && row >= 0; row = k == 0 ? row + 1 : row - 1)
+                {
+                    matrix[row][col] = counter++;
+                }
+            }
+        }
 
         static void PrintC(int[][] matrix, int rows, int cols)
         {
             int counter = 1;
 
-            for (int i = 0; i < cols; i++)
+            for (int col = 0; col < cols; col++)
             {
-                int k = i % 2 == 0 ? 0 : matrix.Length - 1;
-
-                for (int j = k; j < cols && j >= 0; j = k == 0 ? j + 1 : j-1)
-                {
-                    matrix[j][i] = counter++;
-                }
 
             }
         }
