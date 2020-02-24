@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ArrayManipulator2")]
+[assembly: AssemblyTitle("LargestIncreasingSubsequence")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ArrayManipulator2")]
+[assembly: AssemblyProduct("LargestIncreasingSubsequence")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("27059d6a-1315-4377-9ca4-e81c0a8fb6c9")]
+[assembly: Guid("295c0b1c-6b24-40a9-938d-bfaa5ba7c69c")]
 
 // Version information for an assembly consists of the following four values:
 //

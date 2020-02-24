@@ -10,12 +10,29 @@ namespace RotateMatrix
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            int rows = int.Parse(Console.ReadLine());
+            int cols = int.Parse(Console.ReadLine());
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+            string[][] matrix = new string[rows][];
+            string[][] result = new string[cols][];
+
+            for (int i = 0; i < rows; i++)
+            {
+                matrix[i] = Console.ReadLine().Split(' ');
+            }
+
+            for (int i = 0; i < cols; i++)
+            {
+                result[i] = new string[rows];
+                for (int j = rows-1, k=0; j >= 0; j--, k++)
+                {
+                    result[i][k] = matrix[j][i];
+                }
+            }
+            for (int i = 0; i < result.Length; i++)
+            {
+                Console.WriteLine(string.Join(" ", result[i]));
+            }
         }
     }
 }

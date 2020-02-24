@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0067B4EF-8B88-4461-9B26-BD9F15301E12}</ProjectGuid>
+    <ProjectGuid>{295C0B1C-6B24-40A9-938D-BFAA5BA7C69C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tour</RootNamespace>
-    <AssemblyName>Tour</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>LargestIncreasingSubsequence</RootNamespace>
+    <AssemblyName>LargestIncreasingSubsequence</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
